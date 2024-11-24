@@ -1,9 +1,9 @@
 terraform {
   backend "s3" {
-    bucket = "mon1stbucket"
+    bucket = "mon1sjiurtuytrtbucket"
     key    = "dev/terraform.tfstate"
     region = "us-east-1"
-    dynamodb_table = "statefilelock"
+    dynamodb_table = "statenjhiiyuuigitfilelock"
     encrypt = true
     
   }
